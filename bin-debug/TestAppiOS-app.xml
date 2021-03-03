@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+
+	<copyright>© 2015 WaveBreak Software LLC</copyright>
+	<customUpdateUI>false</customUpdateUI>
+	<description>App for testing (as the name implies)</description>
+	<filename>TestAppiOS</filename>
+	<id>com.wb.software.TestAppiOS.debug</id>
+	<name>Test App-debug</name>
+	<versionLabel>1.0.0</versionLabel>
+	<versionNumber>1.0.0</versionNumber>
+
+	<extensions>
+        <extensionID>com.wb.software.iOSANE</extensionID>
+    </extensions>
+
+	<!-- <icon>
+	
+		<image16x16></image16x16>
+		<image29x29></image29x29>
+		<image32x32></image32x32>
+		<image36x36></image36x36>
+		<image48x48></image48x48>
+		<image50x50></image50x50>
+		<image57x57></image57x57>
+		<image58x58></image58x58>
+		<image72x72></image72x72>
+		<image100x100></image100x100>
+		<image114x114></image114x114>
+		<image128x128></image128x128>
+		<image144x144></image144x144>
+		<image512x512></image512x512>
+		<image1024x1024></image1024x1024>
+
+	</icon> -->
+
+	<initialWindow>
+
+        <aspectRatio>landscape</aspectRatio>
+        <autoOrients>true</autoOrients>
+		<content>TestAppiOS.swf</content>
+        <depthAndStencil>false</depthAndStencil>
+        <fullScreen>true</fullScreen>
+        <renderMode>direct</renderMode>
+		<softKeyboardBehavior>none</softKeyboardBehavior>
+		<visible>false</visible>
+
+    </initialWindow>
+	
+    <iPhone>
+    
+        <requestedDisplayResolution>high</requestedDisplayResolution>
+
+        <InfoAdditions><![CDATA[
+ 
+ 	        <key>UIDeviceFamily</key>
+            <array>
+            	<string>1</string>
+            	<string>2</string>
+            </array>
+ 
+            <key>UIPrerenderedIcon</key>
+           	<string>YES</string>
+
+		]]></InfoAdditions>
+		
+ 	</iPhone>
+ 	
+</application>
